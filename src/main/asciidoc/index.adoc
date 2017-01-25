@@ -1,0 +1,72 @@
+= Sample API Document
+
+== Blog APIs
+
+=== Get Blog
+
+==== HTTP Request
+
+----
+GET /blog/{id}
+----
+
+==== Path Parameters
+include::{snippets}/blog/get/path-parameters.adoc[]
+
+==== Response Fields
+include::{snippets}/blog/get/response-fields.adoc[]
+
+==== Example
+include::{snippets}/blog/get/curl-request.adoc[]
+include::{snippets}/blog/get/http-response.adoc[]
+
+=== Post Blog
+
+==== HTTP Request
+
+----
+POST /blog
+----
+
+==== Request Fields
+include::{snippets}/blog/post/request-fields.adoc[]
+
+==== Response Fields
+include::{snippets}/blog/post/response-fields.adoc[]
+
+==== Example
+include::{snippets}/blog/post/curl-request.adoc[]
+include::{snippets}/blog/post/http-response.adoc[]
+
+=== Put Blog
+
+==== HTTP Request
+
+----
+PUT /blog/{id}
+----
+
+==== Path Parameters
+include::{snippets}/blog/put/path-parameters.adoc[]
+
+==== Request Fields
+include::{snippets}/blog/put/request-fields.adoc[]
+
+==== Response Fields
+include::{snippets}/blog/put/response-fields.adoc[]
+
+==== Example
+include::{snippets}/blog/put/curl-request.adoc[]
+include::{snippets}/blog/put/http-response.adoc[]
+
+=== Delete Blog
+
+==== HTTP Request
+
+----
+DELETE /blog/{id}
+----
+
+==== Example
+include::{snippets}/blog/put/curl-request.adoc[]
+include::{snippets}/blog/put/http-response.adoc[]
